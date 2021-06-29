@@ -68,6 +68,11 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
+.location-box .location.bg {
+  font-size: 50px;
+  margin-top: 200px;
+}
+
 .location-box .date {
   color: #fff;
   font-size: 20px;

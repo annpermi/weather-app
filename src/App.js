@@ -54,7 +54,11 @@ function App() {
               <div className="weather">{weather.weather[0].main}</div>
             </div>
           </div>
-        ) : ('')}
+        ) : (
+          <div className="location-box">
+            <div className="location bg">Let's check the weather!</div>
+          </div>
+        )}
       </main>
     </div>
   );
